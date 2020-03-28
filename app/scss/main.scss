@@ -96,12 +96,12 @@ body {
 .dark {
   background-color: $black;
   position: relative;
-  padding: 9.8vh 0 0 13.3vw;
+
 
   background-repeat: no-repeat;
   background-position: bottom center;
   //background-size: calc(100% - 26.6vw);
-  background-size: auto 70vh;
+  background-size: auto 63vh;
 
   &:before {
     @include pseudo;
@@ -118,10 +118,11 @@ body {
     align-items: flex-start;
     flex-direction: column;
     position: relative;
+    padding: 9.8vh 0 0 13.3vw;
   }
 
   &.without-padding {
-    background-size: calc(100% - 16vw);
+    background-size: calc(100% - 19vw);
     background-position: bottom center;
 
     &:before {
@@ -139,10 +140,11 @@ body {
 
   &-excerpt {
     color: rgba(white, .8);
-    font-size: 4.25vw;
+    font-size: 4vw;
     font-weight: 400;
     line-height: calc(20 / 16);
     padding-right: 22.5vw;
+    //padding-right: 6vw;
     margin-top: 15px;
   }
 
@@ -251,6 +253,7 @@ body {
     font-weight: 400;
     letter-spacing: 0.5px;
     line-height: calc(22.4 / 16);
+    max-height: 15.98837vh;
     color: white;
   }
 

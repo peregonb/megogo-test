@@ -12,6 +12,7 @@ let paths = {
         src: [
             'node_modules/jquery/dist/jquery.min.js',
             'app/js/pagePilling.js',
+            'app/js/dotdotdot.js',
             baseDir + '/js/app.js' // app.js. Always at the end
         ],
         dest: baseDir + '/js',

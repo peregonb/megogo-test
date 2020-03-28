@@ -23,4 +23,12 @@ $(window).on('load resize', () => {
                 $menu.addClass('active')
         });
     })();
+
+    (function dots() {
+        $(".subscription-excerpt").dotdotdot({
+            // height: 126,
+            fallbackToLetter: true,
+            watch: true,
+        });
+    })();
 });

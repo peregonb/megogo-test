@@ -26,7 +26,6 @@ $(window).on('load resize', () => {
 
     (function dots() {
         $(".subscription-excerpt").dotdotdot({
-            // height: 126,
             fallbackToLetter: true,
             watch: true,
         });
